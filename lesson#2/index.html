@@ -7,9 +7,13 @@
         };
         var result = myCrazyObject[1]
         //.someArray[2].number;
-        alert(result)*/    
+        alert(result)*/  
+    //var yourName = name; 
     var name = prompt ('Where is your name?', ' ');
-    alert('Hello, ', name);
+    alert('Hello ' + name);
+    for (var i = 0; i < name.length; i++) {
+    //name - не string, поэтому name[i] не выполняется?
+    alert('In your name include letters:', name[i]);}
     var surname = prompt ('What is your last name?', ' ');
     var nameSurname = [name, surname].join(' ');
     alert('Then you can be called ' + nameSurname + '?');
