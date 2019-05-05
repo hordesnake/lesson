@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<script>
+    /*var myCrazyObject = {
+        "name": "Нелепый объект",
+        "some Array": [7, 9, { purpose: "путаница", number: 123 }, 3.3],
+        "random Animal": "Банановая акула"
+        };
+        var result = myCrazyObject[1]
+        //.someArray[2].number;
+        alert(result)*/    
+    var name = prompt ('Where is your name?', ' ');
+    alert('Hello, ', name);
+    var surname = prompt ('What is your last name?', ' ');
+    var nameSurname = [name, surname].join(' ');
+    alert('Then you can be called ' + nameSurname + '?');
+    if (name.length >= 8) {
+        alert('Well, you have a very long last name! :)');
+    } else {
+        var result = [name,', hm your last name is not long'].join(' ')
+        alert(result);}
+</script>
