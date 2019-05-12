@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Game "Gallows"!</title>
+    <!-- ИГРА ВИСЕЛИЦА -->
+  </head>
+  <body>
+    <h4>Game Gallows!</h4>
+    <!-- <style type="text/css">
+.input {
+color: rgb
+}
+
+</style>-->
+    <form>
+      <div id=input>
+        <input type="text" id="words" value=""/>
+        <button type="submit">Save </button>
+      </div>
+    </form>
+    <script>
+      //передача введеных значений 
+      // Создаем массив со словами
+      var words = document.getElementById('words').value
+      //!!! НЕ СОХРАНЯЕТСЯ ЗНАЧЕНИЕ В МАССИВ, ПРИ ВВОДЕ В ТЕГ INPUT, СТРОКА#16
+      //!!! ЕСЛИ ЗАПОЛНИТЬ value ВРУЧНУЮ ТО НЕТ ПРОБЛЕМ, ТОЛЬКО НЕККОРЕКТНО РАБОТАЕТ ПЕРЕБОР
+      //!!! НЕККОРЕКТНО ОТОБРАЖАЕТСЯ ДЛИННА СЛОВА В МАССИВЕ answerArray, 
+      //!!! БУКВЕ В СЛОВЕ ДОЛЖНЫ БЫТЬ ЗАМЕНЕНЫ НА "_" ПРИ ПЕРЕБОРЕ, НАПРИМЕР: ПР_ГРА_ММ_
+
+      // Выбираем случайное слово из массива
+      var word = words[Math.floor(Math.random() * words.length)];
+      // Создаем итоговый массив
+      var answerArray = [];
+      for (var i = 0; i < word.length; i++) {
+        answerArray[i] = "_";
+      }
+      var remainingLetters = word.length;
+      // Игровой цикл
+      while (remainingLetters > 0) {
+        // Показываю состояние игры
+        alert(answerArray.join(" "));
+        // Запрашиваю вариант ответа
+        var guess = prompt("Guess the letter, or click Cancel to exit the game.");
+        if (guess === null) {
+          // Выходим из игрового цикла
+          break;
+          //Проверка длинны вводимых символов
+        } else if (guess.length !== 1) {
+          alert("Please enter only one letter!");
+        } else {
+          // Обновляем состояние игры
+          for (var j = 0; j < word.length; j++) {
+            if (word[j] === guess) {
+              answerArray[j] = guess;
+              remainingLetters--;
+            }
+          }
+          // Конец игрового цикла
+        }
+        // Отображаем ответ и поздравляем игрока
+        alert(answerArray.join(" "));
+        alert("Finally! The word was made: " + word);}
+    </script>
+  </body>
+</html>
