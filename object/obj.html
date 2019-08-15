@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<title>object orientation prohramming</title>
+<h2>Animals</h2>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<!---Obj{}--->
+<script>
+  let animal = 
+let speak = function() {
+  console.log(this.sound + "Vеня зовут " + this.name + "!");
+};
+var dog = {
+  //свойства объекта
+  //--properties object
+  //в свойствах также можно хранить функцим
+  //--you can also store functions in properties
+  //они будут называться методами
+  //--they will be called methods
+name: "Chappy",
+legs: 4,
+isAwesome: true,
+speak: speak,
+sound: "Гав-гав! "
+};
+console.log(dog.name);
+
+dog.age = 6;
+console.log(dog);
+
+var bird = new Bird(legs:2, sound:"Chirick-chirick! ");
+console.log(bird);
+//dog.sound = "Гав-гав! ";
+
+//this - действует в рамках одной переменной?
+//dog.bark = function () {
+console.log(this.sound + "Меня зовут " + this.name + "!");
+
+/*const speakDog = function () {
+  console.log(dog.sound + "Меня зовут " + dog.name + "!");
+
+};*/
+
+
+
+var cat = {
+sound: "Mew! ",
+name: "Варежка",
+speak: speak,
+//speaking: speakCat
+};
+
+cat.speak = function() {
+  console.log(cat.sound + "Меня зовут " + cat.name + "!");
+};
+
+
+//dog.bark();
+dog.speak();
+cat.speak();
+
+//speakDog();
+//speakCat();
+
+
+</script>
+</html>
