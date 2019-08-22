@@ -23,29 +23,29 @@ console.log(randomString);
 */
 var input = "javascript is awesome";
 var output = "";
-for (var i = 0; 0 < input.length; i++){
+for (var i = 0; 0 < input.length; i++) {
 	output[a] += "4";
 	output[e] += "3";
 	output[i] += "1";
 	output[o] += "0";
-alert(output)
-};
+	alert(output);
+}
 
 var input = "javascript is awesome";
 var output = "";
 
-for (var i = 0; i < input.length; i++){
-	if(input[i] === "a") {
-      	output += 4;
-     }else if (input[i] === "i"){
-        output += 1; 
-     }else if (input[i] === "e"){
-     		output += 3;
-     }else if (input[i] === "o"){
-     		output += 0;
-     }else{
-     		output += input[i];
-     }
+for (var i = 0; i < input.length; i++) {
+	if (input[i] === "a") {
+		output += 4;
+	} else if (input[i] === "i") {
+		output += 1;
+	} else if (input[i] === "e") {
+		output += 3;
+	} else if (input[i] === "o") {
+		output += 0;
+	} else {
+		output += input[i];
 	}
-  
+}
+
 alert(output);
