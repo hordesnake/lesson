@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .img {
     position: relative;
     width: 375px;
@@ -33,14 +34,10 @@
 }
 
 .logo_radar {
-    position: absolute;
-    left: 85.6%;
-    right: 6.4%;
-    top: 16.49%;
-    bottom: 79.01%;
+    /* radar */
 
-    background: #C96C29 url(radar.png);
-    transform: matrix(0, -1, -1, 0, 0, 0);
+
+
 }
 
 .bottom {
@@ -93,14 +90,8 @@
 }
 
 #logo_email {
-    position: absolute;
-    left: 8%;
-    right: 86.13%;
-    top: 58.02%;
-    bottom: 38.68%;
+    
 
-    background: #FFFFFF;
-    opacity: 0.5;
 }
 
 .email_box {
@@ -159,21 +150,26 @@
     opacity: 0.5;
 }
 
+.icon_password {
+    
+    
+}
+
 .terms {
     /* Terms & Conditions */
 
-position: absolute;
-width: 130px;
-height: 17px;
-left: 122px;
-top: 615px;
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 122px;
+    top: 615px;
 
-font-family: SF Pro Text;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
