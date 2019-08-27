@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.img {
+    position: relative;
+    width: 375px;
+    height: 667px;
+
+    /*background: url(proto.png);*/
+
+    background: linear-gradient(180deg, rgba(236, 228, 214, 0.85) 0%, rgba(255, 255, 255, 0) 41.39%, rgba(46, 59, 79, 0.6545) 58.8%, rgba(44, 55, 74, 0.85) 86.54%), url(proto.png), linear-gradient(180deg, #E3DCD3 0%, #6582A3 100%);
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo_text {
+    /* Elessar */
+
+    position: absolute;
+    width: 214px;
+    height: 75px;
+    left: 80px;
+    top: 85px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #818180;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+
+}
+
+.logo_radar {
+    position: absolute;
+    left: 85.6%;
+    right: 6.4%;
+    top: 16.49%;
+    bottom: 79.01%;
+
+    background: #C96C29 url(radar.png);
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.bottom {
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 30px;
+    top: 507px;
+
+    background: #EE7531;
+    backdrop-filter: blur(3.86957px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 19.3478px;
+}
+
+.bottom_text {
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 163px;
+    top: 520px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email {
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 74px;
+    top: 388px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#logo_email {
+    position: absolute;
+    left: 8%;
+    right: 86.13%;
+    top: 58.02%;
+    bottom: 38.68%;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+}
+
+.email_box {
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 74px;
+    top: 388px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.email_boarder {
+    position: absolute;
+    width: 271px;
+    height: 2px;
+    left: 74px;
+    top: 416px;
+
+    background: #C4C4C4;
+    opacity: 0.5;
+}
+
+.password {
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 74px;
+    top: 433px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.password_boarder {
+    position: absolute;
+    width: 271px;
+    height: 2px;
+    left: 74px;
+    top: 461px;
+
+    background: #C4C4C4;
+    opacity: 0.5;
+}
+
+.terms {
+    /* Terms & Conditions */
+
+position: absolute;
+width: 130px;
+height: 17px;
+left: 122px;
+top: 615px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
