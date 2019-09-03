@@ -1,0 +1,31 @@
+{
+  "name": "lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.2.1",
+    "express": "^4.17.1",
+    "jshint": "^2.10.2",
+    "mongodb": "^3.3.1",
+    "mongoose": "^5.6.10",
+    "tinify": "^1.6.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hordesnake/lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hordesnake/lesson/issues"
+  },
+  "homepage": "https://github.com/hordesnake/lesson#readme"
+}

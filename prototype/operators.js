@@ -7,12 +7,22 @@
 // var age = prompt("Enter age");
 // console.log(age >= 14 && age <= 90);
 // console.log( -1 && 0) && alert( 'второе' );
+function ClickConsole() {
+var mail = document.getElementById("email_box").value;
+    if (mail != null) {
+        console.log(mail.value);
+    }
+    
+}
 
+
+
+/*
 console.log( " " );
 console.log( "" - 1 + 0 );
 console.log( true + false );
 console.log( 6 / "3" );
-console.log( +"\n0\n" );
+console.log( +"\n0\n" );*/
 // "2" * 4 + 5 "$" +
 // "4" ‐ "4px" 7/0
 // "3"
